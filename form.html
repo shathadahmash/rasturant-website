@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="form.css" rel="stylesheet"/>
+    <title>Form</title>
+  </head>
+  <body>
+    <header>
+      <a href="#" class="logo">
+        <img src="icons/icons8-cutlery-40.png" />
+        <i class="resturant"></i>
+        resturant
+      </a>
+      <nav class="navbar">
+        <a class="active" href="index.html" target="_blank">home</a>
+        <a href="menu.html" target="_blank">menu</a>
+        <a href="order.html" target="_blank">order</a>
+        <a href="form.html" target="_blank">Contact Us</a>
+        <a href="login.html" target="_blank">Login</a>
+      </nav>
+    <div class="icons">
+        <div class="main">
+       <input type="text" name="box" placeholder="  Search Here....." />
+       </div>
+        <a  class="search" id="search-icon">
+          <img src="icons\icons8-search-48.png" />
+        </a>
+      </div>
+    </header>
+  <!-----------------------------user account ---------------------------------------------------->
+  
+  <section>
+    <div class="all_info_account">
+        <img class="personal_img" src="pictures\pexels-edmond-dantès-8068120.jpg">
+        <div class="personal_info">
+          your own free space
+        </div>
+          <div class="info_text">
+        </div>
+        <div class="name">
+          <h1>Shatha Abdullah Dahmash</h1>
+        </div>
+
+        <div class="order">
+
+        </div>
+        </div>
+      
+  </section>
+    
+  <!----------------------------want to put a reviw section--------------------------->
+       <div class="review" id="review">
+        <div id="error"></div>
+      <form id="form" onsubmit="valid()">
+        <div class="text-entry">
+        <label>
+        enter you First name
+        <input class="text" type="text" id="first_name" placeholder="Enter Your First Name: ">
+        </label>
+          <label>
+        enter your Last name
+         <input class="text" type="text" id="last_name" placeholder="Enter Your Last Name: ">
+         </label>
+         <label>
+         enter your email
+         <input class="email" type="email" id="email" placeholder="Enter Your email: ">
+         </label>
+         <label id="phone-label">
+         enter your age:
+          <input class="age2" id="age2" placeholder="Enter Your Age: ">
+         </label>
+          <br>
+         enter your phone number:
+          <input  id="phone" placeholder="Enter Your phone number: ">
+          </label>
+        </div>
+        
+          <div class="textarea">
+            <div class="textarea-text">
+            any comments?
+            </div>
+          <textarea value="" placeholder="Want to Say any Thing For Us text here">
+          </textarea>
+        </div>
+          <div class="choices">
+            <div class="choice1">
+        <label>   
+          Have you ever ordered from Us? 
+          </label> 
+          <label class="choice">
+            <div>
+            <input type="radio" name="order">
+            Yes
+            </div>
+          </label>
+          <label class="choice" >
+            <div>
+            <input type="radio"name="order">
+            No
+          </label>
+          </div>
+          </div>
+          <div class="choices2">
+            <label>   
+               Did you like Your experince?
+          </label> 
+          <div>
+          <label>
+            <div>
+            <input type="radio" name="like">
+            Yes
+            </div>
+          </label>
+          <label>
+          <input type="radio" name="like">
+            No
+          </label>
+          </div>
+          </div>
+        </div>
+        <input type="submit" value="submit" id="submit">
+      </form>
+    </div>
+    </section>
+ <footer class="contact"
+    id="contact">
+        <div class="text">
+        conact us if you want :
+      </div>
+      <div class="icons">
+        <a class="facebook" id="facebook">
+          <img src="icons\icons8-facebook-96.png" />
+        </a>
+        <a class="linkedin" id="linkedin">
+          <img src="icons\icons8-linkedin-96.png" />
+        </a>
+        <a href="" class="youtube">
+          <img src="icons\icons8-youtube-96.png" />
+        </a>
+        <a href="#" class="whatsup" id="whatsup">
+          <img src="icons\icons8-whatsapp-96.png" />
+        </a>
+      </div>
+    </footer>
+    <script src="form.js"></script>
+  </body>
+</html>

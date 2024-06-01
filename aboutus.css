@@ -1,0 +1,31 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  background-size: cover;
+}
+
+.continerAll {
+  position: absoluate;
+  left: 0;
+  top: 0;
+  width: 100vh;
+  height: 100vh;
+  animation: animate 16s ease-in-out infinite;
+}
+
+@keyframes animate {
+  0% {
+    background-image: url(pictures\pexels-rajesh-tp-1633495.jpg);
+  }
+  25% {
+    background-image: url(pictures\pexels-rajesh-tp-1633495.jpg);
+  }
+  50% {
+    background-image: url(pictures\pexels-rajesh-tp-1633495.jpg);
+  }
+  75% {
+    background-image: url(pictures\pexels-rajesh-tp-1633495.jpg);
+  }
+}
